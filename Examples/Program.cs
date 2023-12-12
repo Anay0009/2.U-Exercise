@@ -81,4 +81,64 @@
 
 // Console.WriteLine("This is my input: " + Console.ReadLine());
 
+// //_________________________________________________________________________________________________________________
 
+/* Exercises 1: Write a progam that prints out your name
+Console.WriteLine("Hello Anaya");
+
+string name = "Anaya";
+Console.WriteLine("Hello " + name);
+*/
+
+/*Exercises 2: Write a progam that prints out the sum of two numbers
+int x = 15;
+int y = 7;
+
+Console.WriteLine("The sum of " + x + " plus " + y + " is " + (x + y));
+*/
+
+/* Exercises 3: Write a progam that prints the result of dividing two numbers.
+int x = 25;
+int y = 5;
+Console.WriteLine("The result of dividing " + x + " and " + y + " is " + (x/y));
+*/
+
+/* Exercises 4: Write a progam that prints the result of four different operations.
+Console.WriteLine("The first equation is: -1 + 4 * 6, which equals to: " + (-1 + 4 * 6));
+Console.WriteLine("The second equation is: ( 35+ 5 ) % 7, which equals to: " + (( 35+ 5 ) % 7));
+Console.WriteLine("The third equation is: 14 + -4 * 6 / 11, which equals to: " + (14 + -4 * 6 / 11));
+Console.WriteLine("The fourth equation is: 2 + 15 / 6 * 1 - 7 % 2, which equals to: " + (2 + 15 / 6 * 1 - 7 % 2));
+*/
+
+/* Exercises 5: Write a progam that swap two numbers (skipped)
+*/
+
+/* Exercises 6: Write a progam that prints the output of the multiplication of three numbers entered by the user.
+int number1, number2, number3;
+Console.WriteLine("Input the first number to multiply: ");
+number1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Input the second number to multiply: ");
+number2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Input the third number to multiply: ");
+number3 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("The result of multiplying " + number1 + ", " + number2 + " and " + number3 + " is " + (number1*number2*number3));
+*/
+
+/* Exercises 7: Write a progam that prints on screen the output of adding, subtracting, multiplying and dividing two numbers entered by the user.
+int number1, number2;
+
+Console.WriteLine("Enter the first number: ");
+number1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter the first number: ");
+number2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("The result of adding " + number1 + " and " + number2 + " is " + (number1+number2));
+Console.WriteLine("The result of subtracting " + number1 + " and " + number2 + " is " + (number1-number2));
+Console.WriteLine("The result of multiplaying " + number1 + " and " + number2 + " is " + (number1*number2));
+Console.WriteLine("The result of dividing " + number1 + " and " + number2 + " is " + (number1/number2));
+Console.WriteLine("The remainder of dividing " + number1 + " and " + number2 + " is " + (number1%number2) + ", also called modulus.");
+*/
