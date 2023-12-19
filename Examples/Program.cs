@@ -495,3 +495,173 @@
 // } else {
 //     Console.WriteLine("We are very sorry, but you are NOT eligible for admission. You got a score on " + (math + phy + chem));  
 // }
+
+// //_________________________________________________________________________________________________________________
+
+// // Exercises, Practice, Solution
+
+// // Exercise 11: Write a program to calculate the root of a quadratic equation.
+
+// int a, b, c;
+// double d, x1, x2;
+
+// Console.WriteLine("Calculate root of Quadratic Equation");
+
+// Console.WriteLine("Enter the value you want (a) to be: ");
+// a = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Enter the value you want (b) to be: ");
+// b = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Enter the value you want (c) to be: ");
+// c = Convert.ToInt32(Console.ReadLine());
+
+// d = b*b-4*a*c;
+// if (d == 0) {
+//     Console.WriteLine("Both roots are equal.");
+//     x1=-b/(2.0*a);
+//     x2=x1;
+//     Console.WriteLine("There is only one root, which is {0}.",x1);
+// }
+// else if (d>0) {
+//     Console.WriteLine("There are two roots.");
+//     x1=(-b+Math.Sqrt(d))/(2*a);
+// 	x2=(-b-Math.Sqrt(d))/(2*a);
+
+//     Console.Write("The first Root is {0}.",x1);
+// 	Console.Write("The second Root is {0}.",x2);
+// }
+// else {
+//     Console.Write("There is no root, because the discriminant is negative = {0}.",d);
+// }
+
+
+// // Exercise 12: Write a program to read roll no, name and marks of three subjects and calculate the total, percentage and division.
+
+// int rollNumb, phy, chem, comp, totalMarks;
+// string nm, div;
+// double avg;
+
+// Console.Write("Input the Roll Number of the student: ");
+// rollNumb = Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Input the student name: ");
+// nm = Console.ReadLine()!;
+
+// Console.Write("Input the marks of Physics: ");
+// phy = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input the marks of Chemistry: ");
+// chem = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input the marks of Computer Application: ");
+// comp = Convert.ToInt32(Console.ReadLine());
+
+// totalMarks = phy + chem + comp;
+// avg = totalMarks/3;
+
+// switch (avg){
+//      case >= 60:
+//         div = "You're in the first division!";
+//         break;
+//     case >= 48:
+//         div = "You're in the second division!";
+//         break;
+//     case >= 36:
+//         div = "You barely passed! Congratulations!";
+//         break;
+//     default:
+//         div = "You failed! Good luck next year!";
+//         break;
+// }
+
+// Console.WriteLine("--------------------------------------------------------------------------");
+// Console.WriteLine("Roll Number: {0} \nName of Student: {1}",rollNumb, nm);
+// Console.WriteLine("Marks in Physics: {0} \nMarks in Chemistry: {1} \nMarks in Computer Application: {2}", phy, chem, comp);
+// Console.WriteLine("Total Marks = {0} \nPercentage = {1} % \nDivision = {2}",totalMarks, avg, div);
+
+
+// // Exercise 13: Write a program to read temperature in centigrade and display a suitable message according to the temperature state below:
+
+// // Temp < 0 then Freezing weather
+// // Temp 0-10 then Very Cold weather
+// // Temp 10-20 then Cold weather
+// // Temp 20-30 then Normal in Temp
+// // Temp 30-40 then Its Hot
+// // Temp >=40 then Its Very Hot
+
+// int temp;
+
+// Console.Write("Input the temperature in celcius: ");
+// temp = Convert.ToInt32(Console.ReadLine());
+
+// switch (temp){
+//     case < 0:
+//         Console.WriteLine("It's freezing outside! Bring a thick coat and scarf with you, when you go outside.");
+//         break;
+//     case < 10:
+//         Console.WriteLine("It's cold outside! Bring a coat with you, when you go outside.");
+//         break;
+//     case < 20:
+//         Console.WriteLine("It's warm outside. Bring a light coat with you, when you go outside.");
+//         break;
+//     case < 30:
+//         Console.WriteLine("It's hot outside! Bring an extra T-shirt with you.");
+//         break;
+//     case < 40:
+//         Console.WriteLine("It's very hot outside! Stay in the shade and go to the beach to cool down.");
+//         break; 
+//     default:
+//         Console.WriteLine("The temperatur is to hot! Drink a lot of water and stay inside!");
+//         break;
+// }
+
+
+// // Exercise 14: Write a program to check whether a triangle is Equilateral, Isosceles or Scalene.
+
+// Console.WriteLine("Check whether a triangle is Equilateral, Isosceles or Scalene:");
+
+// int s1, s2, s3;
+
+// Console.Write("Input side 1 of triangle: ");
+// s1= Convert.ToInt32(Console.ReadLine());
+
+// Console.Write("Input side 2 of triangle: ");
+// s2= Convert.ToInt32(Console.ReadLine()); 
+
+// Console.Write("Input side 3 of triangle: ");
+// s3= Convert.ToInt32(Console.ReadLine());  
+
+// Console.WriteLine("--------------------------------------------------------------------------");
+// if (s1 == s2 && s1 == s3){
+//     Console.WriteLine("This is an equilateral triangle, since side 1 is {0}, side 2 is {1}, and side 3 is {2}.",s1, s2, s3);
+// } else if (s1 == s2 || s1 == s3 || s2 == s3){
+//     Console.WriteLine("This is an isosceles triangle, since side 1 is {0}, side 2 is {1}, and side 3 is {2}.",s1, s2, s3);
+// } else {
+//     Console.WriteLine("This is a scalene triangle, since side 1 is {0}, side 2 is {1}, and side 3 is {2}.",s1, s2, s3);
+// }
+
+
+// // Exercise 15: Write a program to check whether a triangle can be formed by the given angles value.
+
+int ang1, ang2, ang3, sum;
+
+Console.WriteLine("Check whether a triangle can be formed by given value:");
+
+Console.Write("Input angle 1 of triangle: ");
+ang1= Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Input angle 2 of triangle: ");
+ang2= Convert.ToInt32(Console.ReadLine()); 
+
+Console.Write("Input angle 3 of triangle: ");
+ang3= Convert.ToInt32(Console.ReadLine()); 
+
+Console.WriteLine("--------------------------------------------------------------------------");
+
+sum = ang1 + ang2 + ang3;   
+
+switch (sum){
+    case 180:
+        Console.WriteLine("The triangle is valid, since the sum is {0}.",sum); 
+        break;
+    default:
+        Console.WriteLine("The triangle is not valid, since the sum is {0}.",sum); 
+        break;
+}
