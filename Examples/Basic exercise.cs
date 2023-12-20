@@ -2,10 +2,10 @@
 // // https://www.w3resource.com/csharp-exercises/basic/index.php
 // // Opgave 1-14 (datatypes exercises)
 
-// public class basicexercise 
+// class basicexercise 
 // {
     
-//     public static void Main()
+//     static void Main()
 //     {
 //         // Exercises 1: Write a progam that prints out your name
 //         Console.WriteLine("Hello Anaya");

@@ -3,7 +3,7 @@
 // // Opgave 11-20 (Switch cases exercises)
 
 
-// public class switchCasesExercises
+// class switchCasesExercises
 // {
 //     static void Main()
 //     {  

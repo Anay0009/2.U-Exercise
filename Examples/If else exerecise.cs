@@ -2,9 +2,9 @@
 // // https://www.w3resource.com/csharp-exercises/conditional-statement/index.php
 // // Opgave 1-10 (if else exercises)
 
-// public class ifElseExercises
+// class ifElseExercises
 // {  
-//     public static void Main()  
+//    static void Main()  
 //     {  
 //         // Exercise 1: Write a program to accept two integers and check whether they are equal or not.
 //         int numb1, numb2; 

@@ -2,10 +2,10 @@
 // // https://www.w3resource.com/csharp-exercises/for-loop/index.php
 // // Opgave 1-10 (For loop exercises)
 
-public class forLoopExercises
-{  
-    public static void Main()  
-    {
+// class forLoopExercises
+// {  
+//     static void Main()  
+//     {
         // //Exercise 1: Write a program that to displays the first 10 natural numbers.
         // for (int i = 1; i <= 10; i++){
         //     Console.WriteLine(i);
@@ -62,5 +62,5 @@ public class forLoopExercises
 
 
 
-    }
-}
+//     }
+// }
