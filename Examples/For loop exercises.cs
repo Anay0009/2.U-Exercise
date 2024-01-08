@@ -59,7 +59,7 @@
 
 
         //Exercise 5: Write a program to display the cube of an integer up to given number.
-
+        
 
 
 //     }
