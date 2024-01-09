@@ -2,7 +2,7 @@
 // // https://www.w3resource.com/csharp-exercises/conditional-statement/index.php
 // // Opgave 1-10 (if else exercises)
 
-// class ifElseExercises
+// class IfElseExercises
 // {  
 //    static void Main()  
 //     {  

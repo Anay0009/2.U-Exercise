@@ -1,6 +1,6 @@
 
 
-// class ownCode
+// class OwnCode
 // {
 
 //     static void Main()

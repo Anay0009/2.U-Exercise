@@ -2,7 +2,7 @@
 // // https://www.w3resource.com/csharp-exercises/basic/index.php
 // // Opgave 1-14 (datatypes exercises)
 
-// class basicexercise 
+// class BasicExercise 
 // {
     
 //     static void Main()

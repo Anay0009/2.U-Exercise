@@ -1,6 +1,6 @@
 
 
-// class whileLoops
+// class WhileLoops
 // {
 //     static void Main(){
 

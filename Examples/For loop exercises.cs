@@ -2,7 +2,7 @@
 // // https://www.w3resource.com/csharp-exercises/for-loop/index.php
 // // Opgave 1-10 (For loop exercises)
 
-// class forLoopExercises
+// class ForLoopExercises
 // {  
 //     static void Main()  
 //     {
