@@ -90,22 +90,22 @@ class ArraysExercises{
         Console.Write("Input the number of elements to be stored in both of the arrays: ");
         int n = Convert.ToInt32(Console.ReadLine());
         
-        int[] arr1 = new int[n];
-        int[] arr2 = new int[n];
+        int[] intArray1 = new int[n];
+        int[] intArray2 = new int[n];
 
-        Console.WriteLine("\nInput {0} elements in the first array: ", n);
+        Console.WriteLine("\nInput {0} elements (above 0) in the first array: ", n);
         for(int i = 0; i < n; i++){
             Console.Write("Input element {0}: ", i);
-            arr1[i] = Convert.ToInt32(Console.ReadLine());
+            intArray1[i] = Convert.ToInt32(Console.ReadLine());
         }
 
-        Console.WriteLine("\nInput {0} elements in the second array: ", n);
+        Console.WriteLine("\nInput {0} elements (above 0) in the second array: ", n);
         for(int i = 0; i < n; i++){
             Console.Write("Input element {0}: ", i);
-            arr2[i] = Convert.ToInt32(Console.ReadLine());
+            intArray2[i] = Convert.ToInt32(Console.ReadLine());
         }
 
-
+       
 
     }
 
