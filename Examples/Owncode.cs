@@ -36,6 +36,31 @@
 //         Console.WriteLine("\nYou've listed {0} names, indicating there are {0} students in your class.", students);
 //         Console.WriteLine("The average age of the students is: {0}\n", averageAge);
 
+
+//         // Own code to a string
+
+//         string path;
+
+//         Console.WriteLine("Which way do you want to go?");
+//         Console.WriteLine("Left, Right, or Down?");
+//         path = Console.ReadLine()!.ToLower();
+
+//         switch (path)
+//         {
+//             case "left":
+//                 Console.WriteLine("You chose to go left.");
+//                 break;
+//             case "right":
+//                 Console.WriteLine("You chose to go right.");
+//                 break;
+//             case "down":
+//                 Console.WriteLine("You chose to go down.");
+//                 break;
+//             default:
+//                 Console.WriteLine("You found the hidden path.");
+//                 break;
+//         }
+
 //     }
 
 // }

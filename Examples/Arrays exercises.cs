@@ -1,9 +1,9 @@
 
-using System.Diagnostics.CodeAnalysis;
+// using System.Diagnostics.CodeAnalysis;
 
-class ArraysExercises{
+// class ArraysExercises{
 
-    static void Main(){
+//     static void Main(){
 
         // //1. Write a C# Sharp program that stores elements in an array and prints them.
 
@@ -87,28 +87,28 @@ class ArraysExercises{
 
         //7. Write a C# Sharp program to merge two arrays of the same size sorted in ascending.
    
-        Console.Write("Input the number of elements to be stored in both of the arrays: ");
-        int n = Convert.ToInt32(Console.ReadLine());
+        // Console.Write("Input the number of elements to be stored in both of the arrays: ");
+        // int n = Convert.ToInt32(Console.ReadLine());
         
-        int[] intArray1 = new int[n];
-        int[] intArray2 = new int[n];
+        // int[] intArray1 = new int[n];
+        // int[] intArray2 = new int[n];
 
-        Console.WriteLine("\nInput {0} elements (above 0) in the first array: ", n);
-        for(int i = 0; i < n; i++){
-            Console.Write("Input element {0}: ", i);
-            intArray1[i] = Convert.ToInt32(Console.ReadLine());
-        }
+        // Console.WriteLine("\nInput {0} elements (above 0) in the first array: ", n);
+        // for(int i = 0; i < n; i++){
+        //     Console.Write("Input element {0}: ", i);
+        //     intArray1[i] = Convert.ToInt32(Console.ReadLine());
+        // }
 
-        Console.WriteLine("\nInput {0} elements (above 0) in the second array: ", n);
-        for(int i = 0; i < n; i++){
-            Console.Write("Input element {0}: ", i);
-            intArray2[i] = Convert.ToInt32(Console.ReadLine());
-        }
+        // Console.WriteLine("\nInput {0} elements (above 0) in the second array: ", n);
+        // for(int i = 0; i < n; i++){
+        //     Console.Write("Input element {0}: ", i);
+        //     intArray2[i] = Convert.ToInt32(Console.ReadLine());
+        // }
+        
+//      
 
-       
+//     }
 
-    }
-
-}
+// }
 
   
