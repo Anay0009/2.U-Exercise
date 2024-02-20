@@ -39,27 +39,27 @@
 
 //         // Own code to a string
 
-//         string path;
+        // string path;
 
-//         Console.WriteLine("Which way do you want to go?");
-//         Console.WriteLine("Left, Right, or Down?");
-//         path = Console.ReadLine()!.ToLower();
+        // Console.WriteLine("Which way do you want to go?");
+        // Console.WriteLine("Left, Right, or Down?");
+        // path = Console.ReadLine()!.ToLower();
 
-//         switch (path)
-//         {
-//             case "left":
-//                 Console.WriteLine("You chose to go left.");
-//                 break;
-//             case "right":
-//                 Console.WriteLine("You chose to go right.");
-//                 break;
-//             case "down":
-//                 Console.WriteLine("You chose to go down.");
-//                 break;
-//             default:
-//                 Console.WriteLine("You found the hidden path.");
-//                 break;
-//         }
+        // switch (path)
+        // {
+        //     case "left":
+        //         Console.WriteLine("You chose to go left.");
+        //         break;
+        //     case "right":
+        //         Console.WriteLine("You chose to go right.");
+        //         break;
+        //     case "down":
+        //         Console.WriteLine("You chose to go down.");
+        //         break;
+        //     default:
+        //         Console.WriteLine("You found the hidden path.");
+        //         break;
+        // }
 
 //     }
 

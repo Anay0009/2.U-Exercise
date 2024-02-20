@@ -2,23 +2,62 @@
 // // https://www.w3resource.com/csharp-exercises/basic/index.php
 // // Opgave 1-14 (datatypes exercises)
 
-// class BasicExercise 
-// {
-    
-//     static void Main()
-//     {
-//         // Exercises 1: Write a progam that prints out your name
+// class BasicExercise{
+
+//     static void Main(){
+//     Console.WriteLine("What exercise do you want me to find?");
+//     Console.WriteLine("1, 2, 3, 4, 6, 7, O1, O5 or O7: ");
+//     int x = Convert.ToInt32(Console.ReadLine());
+        
+//         switch(x){
+//             case 1:
+//                 Exercise1();
+//                 break;
+//             case 2:
+//                 Exercise2();
+//                 break;
+//             case 3:
+//                 Exercise3();
+//                 break;
+//             case 4:
+//                 Exercise4();
+//                 break;
+//             case 5:
+//                 Exercise6();
+//                 break;
+//             case 6:
+//                 Exercise7();
+//                 break;
+//         }
+//     }
+
+//     static void Exercise1(){
+//     // Exercises 1: Write a progam that prints out your name
+//         Console.WriteLine("---------------------------------------");
+//         Console.WriteLine("Write a progam that prints out your name.");
+//         Console.WriteLine("---------------------------------------");
+
 //         Console.WriteLine("Hello Anaya");
 
 //         string name = "Anaya";
+
 //         Console.WriteLine("Hello " + name);
+//     }
 
+//     static void Exercise2(){
+//     // Exercises 2: Write a progam that prints out the sum of two numbers
+//         Console.WriteLine("---------------------------------------");
+//         Console.WriteLine("Write a progam that prints out the sum of two numbers.");
+//         Console.WriteLine("---------------------------------------");
 
-//         // Exercises 2: Write a progam that prints out the sum of two numbers
 //         int x = 15;
 //         int y = 7;
 
 //         Console.WriteLine("The sum of " + x + " plus " + y + " is " + (x + y));
+
+//     }
+// }
+    
 
 
 //         // Exercises 3: Write a progam that prints the result of dividing two numbers.
@@ -128,8 +167,4 @@
 
 //         // Exercise 8: Write a program that takes the radius of a sphere as input and calculates and displays the surface and volume of the sphere.
 
-     
-//     }
-// }
-
-        
+          
